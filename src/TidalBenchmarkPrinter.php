@@ -30,7 +30,7 @@ namespace Tidal\Benchmark;
  *
  * @author Timo Michna
  */
-class TydalBenchmarkPrinter {
+class TidalBenchmarkPrinter {
     
     /*
      * @var Tidal\Benchmark\Benchmark a Benchmark instance with data to fetch from
