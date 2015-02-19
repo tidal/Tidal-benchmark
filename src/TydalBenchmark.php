@@ -2,7 +2,7 @@
 namespace Tidal\Benchmark;
 
 /*
- * Copyright (C) 2008 Timo Michna
+ * Copyright (C) 2015 Timo Michna
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -26,6 +26,7 @@ namespace Tidal\Benchmark;
 
 /*
  * Simple Raw Benchmarking Class measuring time spend on running code and it's memory consumption
+ *  @author Timo
  */
 class Benchmark {
     
