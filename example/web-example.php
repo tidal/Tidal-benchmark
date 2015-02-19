@@ -3,8 +3,8 @@ require_once '../src/TidalBenchmark.php';
 require_once '../src/TidalBenchmarkPrinter.php';
 
 use 
-    \Tidal\TiodalBenchmark,
-    \Tidal\TidalBenchmarkPrinter;
+    Tidal\Benchmark\TidalBenchmark,
+    Tidal\Benchmark\TidalBenchmarkPrinter;
 
 ////////////////////////////////////////////////////////////////////
 // test native 'array_intersect' function against a custom variant
@@ -53,8 +53,8 @@ $setup = function($index)use($first, $second){
 
 
 // create Benchmark and Printer instances
-$benchmark = new TydalBenchmark();
-$printer = new TydalBenchmarkPrinter($benchmark);
+$benchmark 	= new \Tidal\Benchmark\TidalBenchmark();
+$printer 	= new \Tidal\Benchmark\TidalBenchmarkPrinter($benchmark);
 
 /////////////////////////////////////
 // test code for native function
