@@ -39,9 +39,9 @@ class TidalBenchmarkPrinter {
     
     /**
      * Constructor
-     * @param \Tidal\Benchmark\Benchmark $benchmark
+     * @param \Tidal\Benchmark\TidalBenchmark $benchmark
      */
-    public function __construct(Benchmark $benchmark){
+    public function __construct(TidalBenchmark $benchmark){
         $this->benchmark = $benchmark;
     }
     
